@@ -155,7 +155,3 @@ npm run dev
 
 ## Submission
 - Submit a 5 minute video going over the app and highlights to Google Drive and share it with adam@concentrate.ai.
-
-**Author:** Developers Team  
-**Maintainer:** @adam
-**License:** MIT
