@@ -9,6 +9,9 @@ This system models an educational SaaS platform for schools and institutions. It
 
 The project is **fully tested**, **Dockerized**, and **deployable**, with an exposed API for school-level analytics and statistics.
 
+## Rules
+You are to use the dependencies inside the `package.json` and no others. You may install extra Radix or shadcn UI components if needed.
+
 ---
 
 ## User Roles & Features
@@ -66,7 +69,7 @@ Exposes school-wide metrics for external integration.
 | `/api/v0/stats/classes` | `GET` | Returns a list of all classes |
 | `/api/v0/stats/classes/:id` | `GET` | Returns a list of all students from a class |
 
-**Auth:** JWT with secure HTTP-only cookies. All services should be protected.
+**Auth:** JWT with secure HTTP-only cookies. All services should be protected. Integrate at least 1 OAuth provider (Google, Microsoft, GitHub, etc).
 
 ---
 
