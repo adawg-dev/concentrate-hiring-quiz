@@ -69,7 +69,7 @@ Exposes school-wide metrics for external integration.
 | `/api/v0/stats/classes` | `GET` | Returns a list of all classes |
 | `/api/v0/stats/classes/:id` | `GET` | Returns a list of all students from a class |
 
-**Auth:** JWT with secure HTTP-only cookies. All services should be protected. Integrate at least 1 OAuth provider (Google, Microsoft, GitHub, etc).
+**Auth:** Roll your own JWT with secure HTTP-only cookies. All services should be protected. Integrate at least 1 OAuth provider (Google, Microsoft, GitHub, etc).
 
 ---
 
